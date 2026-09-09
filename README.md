@@ -40,13 +40,16 @@
    ./logFilter.sh h
    ```
 
+
 ##### ⚙  API Keys:
 VirusTotal:
-    Crear una cuenta (https://www.virustotal.com/gui/join-us)-> API -> Click en "Get your API key" -> Copiar API_KEY
-    Pegar en logFilter.sh `VT_API_KEY="VIRUSTOTAL_API_KEY"`
+  * Crear una cuenta (https://www.virustotal.com/gui/join-us)-> API -> Click en "Get your API key" -> Copiar API_KEY
+  * Pegar en logFilter.sh `VT_API_KEY="VIRUSTOTAL_API_KEY"`
+
 Alienvault:
-    Crear una cuenta (https://otx.alienvault.com/)-> API KEY -> Copiar API_KEY
-    Pegar en logFilter.sh `OTX_API_KEY="ALIENVAULT_API_KEY"`
+  * Crear una cuenta (https://otx.alienvault.com/)-> API KEY -> Copiar API_KEY
+  * Pegar en logFilter.sh `OTX_API_KEY="ALIENVAULT_API_KEY"`
+    
 
 ##  
 ##### »  Uso:
