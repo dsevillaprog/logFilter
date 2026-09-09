@@ -1,12 +1,12 @@
-### <img src="../../../CURSO-CSS/blob/main/img/cmd-g.png" alt="Script" width="auto" height="25"> &MediumSpace; <img src="../../../CURSO-CSS/blob/main/img/gnu-g.png" alt="Linux" width="auto" height="25"> <img src="../../../CURSO-CSS/blob/main/Ejercicio4/img/tor.png" alt="Tor" width="auto" height="25"> &MediumSpace; logFilter.sh
+## <img src="../../../CURSO-CSS/blob/main/img/cmd-g.png" alt="Script" width="auto" height="25"> &MediumSpace; <img src="../../../CURSO-CSS/blob/main/img/gnu-g.png" alt="Linux" width="auto" height="25"> <img src="../../../CURSO-CSS/blob/main/Ejercicio4/img/tor.png" alt="Tor" width="auto" height="25"> &MediumSpace; logFilter.sh
 ##  
 
-##### ⓘ  Descripción
+#### ⓘ  Descripción
 
   \- Filtra y consulta direcciones IPv4 con herramientas online y en listas de reputación de amenazas (DNSBL)
 
 
-##### ⚙  Características
+#### ⚙  Características
 
   * Extrae las IPv4 del archivo Apache/access.log || lee archivo de IPv4 únicas (-i IPv4_únicas.lst)
   * Filtra por peticiones maliciosas y país
@@ -18,13 +18,13 @@
   
 
 
-###### ☰  Dependencias:
+##### ☰  Dependencias:
    ```bash
    gawk curl dnsutils bind9-host jq netcat-openbsd dnsutils coreutils tor torsocks xclip
    ```
 
 ##  
-##### 🛠  Instalación
+#### 🛠  Instalación
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/dsevillaprog/logFilter.git
@@ -42,7 +42,7 @@
    ```
 
 
-##### ⚙  API Keys:
+#### ⚙  API Keys:
 VirusTotal:
   * Crear una cuenta en https://www.virustotal.com/gui/join-us -> API -> Click en "Get your API key" -> Copiar API_KEY
   * Pegar en logFilter.sh `VT_API_KEY="VIRUSTOTAL_API_KEY"`
@@ -57,7 +57,7 @@ Alienvault:
    `./logFilter.sh -f LOGFILE] [-i IPV4LST] [-b IP_BLOCK] [-p HILOS] [-c TOOL] [-m] ]`
 
 ##  
-###### »  Ejemplos de uso:
+##### »  Ejemplos de uso:
 
    ```bash
    ./logFilter.sh -f apache.log [-b <IP_TOR_BLOCK>] [-p <HILOS>]
@@ -69,7 +69,7 @@ Alienvault:
     
   
 ##  
-###### logFilter.sh
+##### logFilter.sh
 ![logFilter](../../../CURSO-CSS/blob/main/Ejercicio2/img/logFilter.png?raw=true)
 ##  
 ![logFilter](../../../CURSO-CSS/blob/main/Ejercicio2/img/logFilter-1.png?raw=true)
