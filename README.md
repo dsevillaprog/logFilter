@@ -56,7 +56,6 @@ Alienvault:
 ##### »  Uso:
    `./logFilter.sh -f LOGFILE] [-i IPV4LST] [-b IP_BLOCK] [-p HILOS] [-c TOOL] [-m] ]`
 
-##  
 ###### »  Ejemplos de uso:
 
    ```bash
