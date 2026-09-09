@@ -3,7 +3,7 @@
 
 ##### ⓘ  Descripción
 
-  - Filtra y consulta direcciones IPv4 con herramientas online y en listas de reputación de amenazas (DNSBL)
+  \- Filtra y consulta direcciones IPv4 con herramientas online y en listas de reputación de amenazas (DNSBL)
 
 
 ##### ⚙  Características
