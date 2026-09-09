@@ -18,7 +18,7 @@
   
 
 
-##### ☰  Dependencias:
+###### ☰  Dependencias:
    ```bash
    gawk curl dnsutils bind9-host jq netcat-openbsd dnsutils coreutils tor torsocks xclip
    ```
@@ -57,7 +57,7 @@ Alienvault:
    `./logFilter.sh -f LOGFILE] [-i IPV4LST] [-b IP_BLOCK] [-p HILOS] [-c TOOL] [-m] ]`
 
 ##  
-##### »  Ejemplos de uso:
+###### »  Ejemplos de uso:
 
    ```bash
    ./logFilter.sh -f apache.log [-b <IP_TOR_BLOCK>] [-p <HILOS>]
