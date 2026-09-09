@@ -38,7 +38,7 @@
 
 3. Ejecutar el script:
    ```bash
-   ./logFilter.sh h
+   ./logFilter.sh -h
    ```
 
 
@@ -54,7 +54,7 @@ Alienvault:
 
 ##  
 ##### »  Uso:
-   `./logFilter.sh -f LOGFILE] [-i IPV4LST] [-b IP_BLOCK] [-p HILOS] [-c TOOL] [-m] ]`
+   `./logFilter.sh [-f LOGFILE] [-i IPV4LST] [-b IP_BLOCK] [-p HILOS] [-c TOOL] [-m] [-h] ]`
 
 ###### »  Ejemplos de uso:
 
