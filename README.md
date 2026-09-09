@@ -15,6 +15,7 @@
   ╰─ Lanza consultas en paralelo con xargs/Tor de (Por defecto: 100 hilos) a listas de reputación de amenazas (DNSBL)
   ╰─ Se añaden a listas de baneo si obtienen algún positivo
   ╰─ Refresca a IP de Tor al finalizar cada bloque de IPs
+  
 
 
 ###### ☰  Dependencias:
